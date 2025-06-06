@@ -49,7 +49,7 @@ describe('Página de Usuários', () => {
         const userEmail = generateUniqueEmail();
 
         cy.get('#addButton').click();
-        cy.wait(500); /
+        cy.wait(500); 
 
         cy.get('#modal').should('be.visible');
         cy.get('#modal .close').should('be.visible');
